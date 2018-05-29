@@ -3,7 +3,7 @@
 docker run -d --name csgobot-python \
 	-v "/home/pomosoft-user/csgobot":/myapp \
  	-w /myapp \
- 	-e DJANGO-ENV="309560265:AAHVU0Ht-N-19v1P8m7kFvy6yXimduCx8s0" \
+ 	-e csgo_bot_token="309560265:AAHVU0Ht-N-19v1P8m7kFvy6yXimduCx8s0" \
     --restart=always \
 	--expose=5000 \
     gurken2108/python3-java \
